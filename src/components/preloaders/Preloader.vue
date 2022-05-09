@@ -20,6 +20,9 @@ defineProps({
 </template>
 
 <style>
+@import "../../../css/app.min.1.css";
+@import "../../../css/app.min.2.css";
+@import "../../../vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css";
 .preloader-vue {
   position: absolute;
   top: 50%; /* position the top  edge of the element at the middle of the parent */

@@ -37,6 +37,10 @@ const showPreLoader = ref(false);
 </template>
 
 <style>
+@import "../../../css/app.min.1.css";
+@import "../../../css/app.min.2.css";
+@import "../../../vendors/bower_components/material-design-iconic-font/dist/css/material-design-iconic-font.min.css";
+
 .btn-vue {
   position: relative;
   overflow: hidden;

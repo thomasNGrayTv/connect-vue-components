@@ -1,4 +1,10 @@
-import { createApp } from 'vue'
-import App from './App.vue'
+import { createApp } from "vue";
+import App from "./App.vue";
+import ConnectVueComponents from "./install";
 
-createApp(App).mount('#app')
+const app = createApp(App);
+
+//plugin
+app.use(ConnectVueComponents);
+
+app.mount("#app");
